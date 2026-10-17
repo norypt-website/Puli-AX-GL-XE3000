@@ -1,0 +1,109 @@
+# NORYPT TAC database — curated, brand- and region-tagged.
+# Format: <8-digit-tac> <brand> <region>
+# Brands:  apple samsung xiaomi motorola
+# Regions: na eu asia latam global
+#
+# Region tagging is best-effort. Manufacturers file separate TACs per
+# launch region; only a subset of those mappings is publicly documented.
+# TACs whose launch region is uncertain land in 'global' and match every
+# region. Lines starting with '#' and blank lines are ignored.
+
+# Apple
+35303111 apple    na
+35313211 apple    na
+35370611 apple    na
+35371311 apple    na
+35464511 apple    na
+35466111 apple    na
+35887462 apple    na
+35280611 apple    eu
+35282711 apple    eu
+35304510 apple    eu
+35358816 apple    eu
+35454611 apple    eu
+35455011 apple    eu
+35319916 apple    eu
+35887662 apple    eu
+35280311 apple    asia
+35282811 apple    asia
+35649910 apple    asia
+35371811 apple    asia
+35392811 apple    asia
+35472811 apple    asia
+35888262 apple    asia
+35317710 apple    global
+35326010 apple    global
+35434010 apple    global
+35649510 apple    global
+35457211 apple    global
+35466211 apple    global
+35630348 apple    global
+35279917 apple    global
+35282017 apple    global
+35282117 apple    global
+35283317 apple    global
+35359416 apple    global
+35326916 apple    global
+35327816 apple    global
+35328316 apple    global
+35887762 apple    global
+35888462 apple    global
+35483396 apple    global
+
+# Samsung
+35275097 samsung  asia
+35451696 samsung  asia
+35156116 samsung  asia
+35044011 samsung  asia
+35044111 samsung  eu
+35451896 samsung  eu
+35156216 samsung  eu
+35158716 samsung  eu
+35275197 samsung  eu
+35041411 samsung  na
+35234411 samsung  na
+35041511 samsung  na
+35235011 samsung  global
+35238211 samsung  global
+35243011 samsung  global
+35158816 samsung  global
+35472188 samsung  global
+35472288 samsung  global
+35452096 samsung  global
+35452196 samsung  global
+35069390 samsung  global
+35155116 samsung  global
+35269116 samsung  global
+35904337 samsung  global
+
+# Xiaomi
+86777005 xiaomi   asia
+86777105 xiaomi   asia
+86777205 xiaomi   asia
+86915706 xiaomi   asia
+86915806 xiaomi   asia
+86977606 xiaomi   asia
+86977706 xiaomi   asia
+86919407 xiaomi   asia
+86934606 xiaomi   eu
+86934706 xiaomi   eu
+86944606 xiaomi   eu
+86919607 xiaomi   global
+86944706 xiaomi   global
+86950706 xiaomi   global
+86932106 xiaomi   global
+
+# Motorola
+35763110 motorola na
+35752910 motorola na
+35768211 motorola na
+35768311 motorola na
+35768411 motorola na
+35768511 motorola na
+35825409 motorola na
+35744409 motorola latam
+35745409 motorola latam
+35768711 motorola global
+35879409 motorola global
+35879509 motorola global
+35825509 motorola global
