@@ -351,7 +351,7 @@ Puli-AX-GL-XE3000/
 - The panel is **LAN-only** and is not exposed on WAN or cellular.
 - Every write action needs a per-session CSRF token (`X-Norypt-Token` header), which is
   checked on the server.
-- Config changes go through a strict server-side allowlist of UCI keys and values.
+- Config changes go through a server-side allowlist of UCI keys.
 - It makes **no outbound connections** at runtime.
 - Found a security issue? Please open a GitHub issue that leaves out exploit details, and we
   will arrange a private channel.
