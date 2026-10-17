@@ -66,7 +66,7 @@ already do on Wi-Fi, applied to a travel router.
 **IMEI changes.** Many jurisdictions regulate or restrict changing a mobile device's IMEI.
 Examples include the United Kingdom (Mobile Telephones (Re-programming) Act 2002) and
 India (Telecommunications Act 2023). Other countries have similar rules, and carriers' terms of
-service often ban it as well. This feature is provided for **research, testing and personal
+service often do not allow it. This feature is provided for **research, testing and personal
 privacy only, and only where the law allows it**. If you are not sure, switch it off:
 
 ```sh
