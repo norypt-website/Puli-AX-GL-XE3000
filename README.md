@@ -16,7 +16,7 @@
 
 > [!IMPORTANT]
 > **Read the [Legal Notice](#legal-notice) before installing.** Changing a cellular modem's IMEI
-> is a criminal offence in some countries. You are responsible for checking and following the
+> is restricted by law in some countries. You are responsible for checking and following the
 > laws of the country you live in and every country you take the router to. If it is not clearly
 > legal where you are, keep IMEI changes switched off (`norypt config set randomize_imei off`).
 
@@ -63,8 +63,8 @@ already do on Wi-Fi, applied to a travel router.
 
 ## Legal Notice
 
-**IMEI changes.** Many jurisdictions regulate changing a mobile device's IMEI, and some make it
-a crime. Examples include the United Kingdom (Mobile Telephones (Re-programming) Act 2002) and
+**IMEI changes.** Many jurisdictions regulate or restrict changing a mobile device's IMEI.
+Examples include the United Kingdom (Mobile Telephones (Re-programming) Act 2002) and
 India (Telecommunications Act 2023). Other countries have similar rules, and carriers' terms of
 service often ban it as well. This feature is provided for **research, testing and personal
 privacy only, and only where the law allows it**. If you are not sure, switch it off:
@@ -80,25 +80,23 @@ and is built into all modern operating systems. Some networks' terms of use may 
 
 - you own the router, or have the owner's permission, to change it;
 - you will follow all laws and regulations that apply to you, and your mobile carrier's terms;
-- you will not use it for any of the purposes listed under [Acceptable Use](#acceptable-use).
+- you will use it only as described under [Acceptable Use](#acceptable-use).
 
-The authors give no legal advice and accept no liability for misuse. If in doubt, talk to a
+The authors give no legal advice and accept no liability for how the software is used. If in doubt, talk to a
 qualified lawyer in your jurisdiction.
 
 ---
 
 ## Acceptable Use
 
-NORYPT is a **privacy** tool for hardware **you own**. It must **not** be used to:
+NORYPT is a **privacy** tool for hardware **you own**. Use it only:
 
-- impersonate or clone another person's device or identifier;
-- get around a block or blacklist on a lost, stolen or barred device, or any network ban;
-- commit fraud, avoid paying for service, or break a carrier's or network's terms;
-- avoid or get in the way of lawful investigations, or any other unlawful activity;
-- touch any device or network you are not authorized to change.
+- on a router you own, or are authorized to configure;
+- in line with the laws that apply to you and the terms of your carrier and any network you use;
+- with identifiers it generates for your own device, never another person's.
 
-The project does **not** include, and will not accept, anything that does these things. Issues
-or pull requests asking for them will be closed.
+Contributions must follow the same rules. Issues or pull requests outside this scope will be
+closed.
 
 ---
 
@@ -353,8 +351,8 @@ Puli-AX-GL-XE3000/
   checked on the server.
 - Config changes go through a server-side allowlist of UCI keys.
 - It makes **no outbound connections** at runtime.
-- Found a security issue? Please open a GitHub issue that leaves out exploit details, and we
-  will arrange a private channel.
+- Found a security issue? Please open a GitHub issue without technical details, and we will
+  arrange a private channel.
 
 ---
 
